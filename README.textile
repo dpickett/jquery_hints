@@ -2,6 +2,7 @@ h1. JQuery Hint
 
 Adds inline hints to your text fields. The code below will show a text field with "Search" as a value. When a user clicks on the field to type something in, the "Search" string will be removed for the user to enter something. If they don't enter anything, and they set focus on something else, the hint will return
 
+<code>
   <input type="text" class="hintable" title="Search Here" />
 
   <script type="text/javascript">
@@ -9,3 +10,4 @@ Adds inline hints to your text fields. The code below will show a text field wit
       $("input.hintable").hint();
     });
   </script>
+</code>
