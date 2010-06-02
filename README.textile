@@ -4,10 +4,12 @@ Adds inline hints to your text fields. The code below will show a text field wit
 
 <code>
   <input type="text" class="hintable" title="Search Here" />
+</code>
 
-  <script type="text/javascript">
-    $(function(){
-      $("input.hintable").hint();
-    });
-  </script>
+Your javascript would be like this:
+
+<code>
+  $(function(){
+    $("input.hintable").hint();
+  });
 </code>
